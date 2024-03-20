@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "realisations",
+  "info": {
+    "singularName": "realisation",
+    "pluralName": "realisations",
+    "displayName": "Réalisations",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
